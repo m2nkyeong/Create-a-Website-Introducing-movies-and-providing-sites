@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        *{
+            background-color: #FFEAEA;
+        }
+
+        #topMenu {            
+                height: 40px; 
+                width: 1500px; 
+                background-color: #CC3D3D;  
+                margin: 0 auto; /*중앙 정렬*/
+        }
+        #topMenu ul li {                       
+                list-style: none;          
+                color: #FFA7A7;               
+                background-color: #CC3D3D;  
+                float: left;               
+                line-height: 40px;         
+                vertical-align: middle;    
+                text-align: center;
+                      
+        }
+        #topMenu .menuLink {                              
+                text-decoration:none;                      
+                color: white;                              
+                display: block;                            
+                width: 280px;                              
+                font-size: 18px;                           
+                font-weight: bold; 
+                background-color: #CC3D3D;                         
+                
+        }
+        #topMenu .menuLink:hover {            
+                color: #FFA7A7;                  
+                background-color: #F15F5F;  
+        }
+        
+        #poster img{
+            width: 400px;
+            height: 600px;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #content{
+            width: 500px;
+            height:fit-content;
+            border: 1px solid grey;
+            float: left;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .button_go{
+            float: right;
+            margin-left: 250px;
+            
+            width:120px;
+            height: 30px;
+            background-color: #CC3D3D;
+            border: 1px solid;
+            border-radius: 10px;
+            
+            text-align: center;
+
+        }
+        .button_go > a{
+            display: block;
+            text-decoration: none;
+            border-radius: 10px;
+            background-color: #CC3D3D;
+            color: #FFA7A7;
+        
+        }
+
+        #video{
+            float: left;
+            margin-left: 50px;
+        }
+    </style>
+    <body>
+        <div id="header">
+            <header>
+            
+                <h1><img src="poster/MIKIPEDIA.png" width="250px" height="70px"></h1>
+                
+            </header>
+        </div>
+
+        <nav id="topMenu" >
+            <ul>
+                    <li><a class="menuLink" href="project_renewal.html">HOME</a></li>
+                    <li><a class="menuLink" href="avengers1.html">어벤져스</a></li>
+                    <li><a class="menuLink" href="avengers2.html">어벤져스 : 에이지 오브 울트론</a></li>
+                    <li><a class="menuLink" href="avengers3.html">어벤져스 : 인피니티 워</a></li>
+                    <li><a class="menuLink" href="avengers4.html">어벤져스 : 엔드게임</a></li>
+                    
+            </ul>
+        </nav>
+
+        <div id="poster">
+            <h1>&nbsp&nbsp어벤져스(The Avengers, 2012)</h1>
+            <!--<img src="poster/avengers1.jpg">-->
+        </div>
+
+
+        <div id="wrap">
+
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m52GIR0Zx80"  title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div id="content">
+                <div id="site_1">
+                    <table border="0">
+                        <tr>
+                            <td><h2>시리즈온 </h2></td>
+                            <td><div class="button_go">
+                                <a href="https://serieson.naver.com/v2/movie/19596?isWebtoonAgreePopUp=true">보러가기</a>
+                            </div></td>
+                        </tr>
+    
+                        <tr>
+                            <td><h2>TVING </h2></td>
+                            <td><div class="button_go">
+                                <a href="https://www.tving.com/movie/player/M000300533?utm_source=Naver&utm_medium=Organic&utm_campaign=SERP">보러가기</a>
+                            </div></td>
+                        </tr>
+    
+                        <tr>
+                            <td><h2>WAVVE </h2></td>
+                            <td><div class="button_go">
+                                <a href="https://www.wavve.com/player/movie?movieid=MV_CA01_DY0000011181&autoplay=y">보러가기</a>
+                            </div></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+
+       
+        <br>
+
+    </body>
+</html>
